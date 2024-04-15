@@ -1,0 +1,12 @@
+<?php
+	if (stristr($_SERVER['HTTP_REFERER'],"animeentv.com") || 
+    stristr($_SERVER['HTTP_REFERER'],"mega-descargas.online")|| 
+    stristr($_SERVER['HTTP_REFERER'],"your otherdomain add here")) {   
+;?>
+
+
+
+<?php
+}
+else echo 'Opps sorry! for demo only, thanks. For more info contact us WGTutoriales';
+?>	
